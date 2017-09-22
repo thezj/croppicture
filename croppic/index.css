@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.picturecrop {
+    margin: 300px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid #ddd;
+}
+
+.selectpicture {
+    height: 35px;
+    width: 125px;
+    background: #ddd;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    line-height: 35px;
+}
+
+.selectpicture input {
+    height: 35px;
+    width: 125px;
+    background: #ddd;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    transform: scaleX(3);
+    right: 80px;
+}
+
+.pictureshow {
+    border: 2px dotted #ddd;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: move;
+}
+
+.pictureshow div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 150px;
+    width: 200px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0)
+}
+
+#truepicture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gm": "^1.23.0",
+    "multiparty": "^4.1.3"
+  }
+}
